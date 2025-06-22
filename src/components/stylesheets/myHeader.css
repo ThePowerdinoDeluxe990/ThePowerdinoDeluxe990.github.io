@@ -1,4 +1,22 @@
+header{
+    position:relative;
+}
+
+
 img{
-    height: 18vw;
+    height: 18vw; width: auto;
+}
+
+
+.profile_picture{
+    height: 8vw;
     width: auto;
+    left:0px;
+    bottom:3px;
+    background-color: black;
+    border-color: var(--secondary-border-or-title);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    position: absolute;
 }
