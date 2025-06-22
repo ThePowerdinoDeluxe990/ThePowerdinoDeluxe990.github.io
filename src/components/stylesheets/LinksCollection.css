@@ -1,3 +1,23 @@
-h2{
-    color:rgb();
+
+
+.link_section{
+    padding: 5px;
+    display: block;
+    background-color:var(--background-black-color);
+    border-radius: 3px;
+    & h3{
+        font-family: "JetBrains Mono ExtraBold", serif;
+        color:var(--secondary-border-or-title);
+    }
+
+   & a{
+       font-family: GohuFont, serif;
+       color:cyan;
+       text-decoration: none;
+       transition:0.5s;
+       &:hover{
+           text-decoration: underline;
+       }
+   }
+
 }
