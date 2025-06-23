@@ -58,7 +58,7 @@
 
 body{
     background-color: var(--background-blue-color);
-    background-image: url("../assets/pattern_background.jpg") ;
+    background-image: url("../assets/pattern_background.webp") ;
     background-repeat: repeat;
     background-position: center center;
     background-size: cover;
