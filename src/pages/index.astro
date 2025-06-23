@@ -1,7 +1,9 @@
 ---
 import MyHeader from "../components/myHeader.astro";
 import "./index.css"
+
 import LinksCollection from "../components/LinksCollection.astro";
+import ProjectComponent from "../components/ProjectComponent.astro";
 ---
 
 <body>
@@ -14,7 +16,7 @@ import LinksCollection from "../components/LinksCollection.astro";
 				<section class="first_section">
 					<h1 class="_title">Welcome to Powerdino's site</h1>
 					<h2>Android and web developer</h2>
-					<h3>I code when i'm bored</h3>
+					<h3>I code when i'm bored, XML hater</h3>
 				</section>
 
 				<section class="langs">
@@ -27,13 +29,33 @@ import LinksCollection from "../components/LinksCollection.astro";
 					</ul>
 				</section>
 
-				<section>
-					<h1>Projects:</h1>
-				</section>
 			</div>
 
 			<LinksCollection class="links" ></LinksCollection>
+
+			<section class="main_body">
+				<h1 class="secondary_title">Projects:</h1>
+				<ProjectComponent
+					class="ProjectComponent"
+					title="Ensaimadium"
+					description="A prototype web browser made from scratch"
+					link="https://github.com/ThePowerdinoDeluxe990/Ensaimadium"></ProjectComponent>
+
+				<ProjectComponent
+					class="ProjectComponent"
+					title="Training App"
+					description="A prototype of an Training app, made with Kotlin and Jetpack Compose"
+					link="https://github.com/ThePowerdinoDeluxe990/TrainingApp"
+				></ProjectComponent>
+
+				<ProjectComponent
+					class="ProjectComponent"
+					title="Wallpaper App"
+					description="An app that downloads wallpapers, made with Kotlin and Jetpack Compose"
+					link="https://github.com/ThePowerdinoDeluxe990/Splatoon_Wallpapers_App"></ProjectComponent>
+			</section>
 		</div>
 	</section>
 
 </body>
+
