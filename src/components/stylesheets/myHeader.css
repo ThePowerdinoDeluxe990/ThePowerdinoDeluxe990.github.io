@@ -4,12 +4,17 @@ header{
 
 
 img{
-    height: 18vw; width: auto;
+    height: auto;
+    width: 100%;
 }
 
 
 .profile_picture{
     height: 8vw;
+    @media only screen and (max-width: 900px) {
+
+        height: 30vw;
+    }
     width: auto;
     left:0px;
     bottom:3px;

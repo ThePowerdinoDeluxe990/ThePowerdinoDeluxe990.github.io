@@ -1,14 +1,22 @@
 ---
 import MyHeader from "../components/myHeader.astro";
 import "./index.css"
-
 import LinksCollection from "../components/LinksCollection.astro";
 import ProjectComponent from "../components/ProjectComponent.astro";
+import Buttons from "../components/Buttons.astro";
 ---
+<head>
+	<meta charset="utf-8" />
 
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="generator" content={Astro.generator} >
+	<title>Powerdino's site</title>
+	<meta name="description" content="The site of Powerdino">
+</head>
 <body>
 
-	<section class="main_section">
+<section class="main_section">
 
 		<MyHeader/>
 		<div class="container_div">
@@ -29,6 +37,7 @@ import ProjectComponent from "../components/ProjectComponent.astro";
 					</ul>
 				</section>
 
+				<Buttons></Buttons>
 			</div>
 
 			<LinksCollection class="links" ></LinksCollection>

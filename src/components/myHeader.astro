@@ -2,8 +2,9 @@
 import HeaderImage from "../assets/banner_Page.jpg"
 import ProfilePicture from "../assets/pfp.png"
 import "./stylesheets/myHeader.css"
+import {Image} from "astro:assets"
 ---
 <header>
-    <img alt="Header" src={HeaderImage.src}/>
-    <img alt="Profile_Picture" class="profile_picture" src={ProfilePicture.src}/>
+    <Image alt="Header" src={HeaderImage}></Image>
+    <Image alt="Profile_Picture" class="profile_picture"  src={ProfilePicture}></Image>
 </header>

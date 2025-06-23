@@ -23,6 +23,9 @@
 
     grid-template-columns: 4fr 1fr;
     gap: 0.5%;
+    @media only screen and (max-width: 900px) {
+        grid-template-columns: 4fr ;
+    }
 }
 
 .links{
@@ -54,6 +57,15 @@
     font-size: xxx-large;
     color: var(--title-color-theme);
     font-family: "Doto", serif;
+}
+
+.buttons{
+    height: 8vw;
+    width: auto;;
+}
+
+ul{
+    padding-bottom: 30px;
 }
 
 body{

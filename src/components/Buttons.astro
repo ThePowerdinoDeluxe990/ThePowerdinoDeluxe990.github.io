@@ -1,0 +1,63 @@
+---
+import FirefoxButton from "../assets/Buttons/button102.gif"
+import w3cButtom from "../assets/Buttons/button142.png"
+import foobar2000 from"../assets/Buttons/foobar2000.gif"
+import halflife from "../assets/Buttons/hl.gif"
+import ieisevil from "../assets/Buttons/ieisevil.gif"
+import java2 from "../assets/Buttons/java2.gif"
+import krisbtn from "../assets/Buttons/krisbtn.png"
+import lucida from "../assets/Buttons/lucida.gif"
+import minecraft from "../assets/Buttons/minecraft.gif"
+import ralseismoking from "../assets/Buttons/ralseismokingadart.gif"
+import soulseek from "../assets/Buttons/soulseek.gif"
+import steam from "../assets/Buttons/steam.gif"
+import ublock from "../assets/Buttons/ublock-now.png"
+import ds from "../assets/Buttons/button169.png"
+import doom from "../assets/Buttons/doombut.gif"
+import webmaster from "../assets/Buttons/f_ckingwww.gif"
+import firefox4 from "../assets/Buttons/firefox4.gif"
+import jobsritchie from "../assets/Buttons/jobsritchie.gif"
+import {Image} from "astro:assets";
+---
+<div>
+    <Image class="button" src={FirefoxButton} alt="Button" />
+    <Image class="button" src={w3cButtom} alt="Button"/>
+    <Image class="button" src={foobar2000} alt="Button"/>
+    <Image class="button" src={halflife} alt="Button"/>
+    <Image class="button" src={ieisevil} alt="Button"/>
+    <Image class="button" src={java2} alt="Button"/>
+    <Image class="button" src={krisbtn} alt="Button"/>
+    <Image class="button" src={lucida} alt="Button"/>
+
+    <Image class="button" src={minecraft} alt="Button"/>
+    <Image class="button" src={ralseismoking} alt="Button"/>
+    <Image class="button" src={soulseek} alt="Button"/>
+    <Image class="button" src={steam} alt="Button"/>
+    <Image class="button" src={ublock} alt="Button"/>
+    <Image class="button" src={ds} alt="Button"/>
+    <Image class="button" src={doom} alt="Button"/>
+    <Image class="button" src={webmaster} alt="Button"/>
+    <Image class="button" src={firefox4} alt="Button"/>
+    <Image class="button" src={jobsritchie} alt="Button"/>
+</div>
+<style>
+
+    div{
+        display: grid;
+
+        grid-template-columns: repeat(9, 88px);
+    }
+    @media only screen and (max-width: 900px) {
+        div{
+            display: grid;
+
+            grid-template-columns: repeat(4, 88px);
+        }
+    }
+    .button{
+        width: 88px;
+        height:31px;
+        max-width:88px;
+        max-height:31px;
+    }
+</style>
