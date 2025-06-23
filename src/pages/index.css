@@ -6,7 +6,6 @@
     --background-black-color: rgb(31,31,31);
     --title-color-theme: rgb(255,135,215,100);
     --secondary-border-or-title: rgb(102,255,186);
-    --background-blue-color: #2c186b;
 }
 
 
@@ -20,78 +19,35 @@
 
     display: grid;
 
-    grid-template-columns: 4fr 1fr;
-    gap: 0.5%;
+    grid-template-columns: 3fr auto;
+
 }
 
 .links{
    padding: 5px;
 }
 
-.dripping_ink{
-    object-fit: cover;
-}
-
-.ProjectComponent{
-    padding:10px;
-}
-
 .main_body {
     background-color: var(--background-black-color);
     border: 3px solid var(--border-color-theme);
-    font-family: "PixelifySans-Regular", serif;
+    font-family: monospace;
     padding: 8px;
     border-radius: 3px;
 }
 
-.secondary_title{
-    font-size: xx-large;
-    color: var(--title-color-theme);
-}
-
 ._title{
-    font-size: xxx-large;
     color: var(--title-color-theme);
-    font-family: "Doto", serif;
+    font-family: "JetBrains Mono ExtraBold", serif;
 }
 
 body{
-    background-color: var(--background-blue-color);
-    background-image: url("../assets/pattern_background.jpg") ;
-    background-repeat: repeat;
-    background-position: center center;
-    background-size: cover;
+    background-image: url("../assets/background_page.png") ;
 }
 
 @font-face {
-    font-family: 'PixelifySans-Regular';
-    src: url('/public/fonts/PixelifySans-Regular.ttf') format('truetype');
+    font-family: 'JetBrains Mono ExtraBold';
+    src: url('/public/fonts/JetBrainsMono-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'PixelifySans-Bold';
-    src: url('/public/fonts/PixelifySans-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Doto';
-    src: url('/public/fonts/Doto-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GohuFont';
-    src: url('/public/fonts/GohuFont11NerdFont-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
