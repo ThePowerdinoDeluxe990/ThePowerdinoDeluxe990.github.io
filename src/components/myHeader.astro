@@ -1,10 +1,15 @@
 ---
 import HeaderImage from "../assets/banner_Page.jpg"
-import ProfilePicture from "../assets/pfp.png"
 import "./stylesheets/myHeader.css"
 import {Image} from "astro:assets"
+import ProfileCard from "./ProfileCard.astro";
+
 ---
 <header>
+
     <Image alt="Header" src={HeaderImage}></Image>
-    <Image alt="Profile_Picture" class="profile_picture"  src={ProfilePicture}></Image>
+    <div class="profile_picture">
+
+        <ProfileCard class="profile_picture"/>
+    </div>
 </header>

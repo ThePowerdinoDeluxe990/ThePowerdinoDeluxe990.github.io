@@ -10,18 +10,11 @@ img{
 
 
 .profile_picture{
-    height: 8vw;
-    width: auto;
     left:0px;
-    bottom:4px;
-    background-color: black;
-    border-color: var(--secondary-border-or-title);
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 3px;
+    bottom:5px;
     position: absolute;
     @media only screen and (max-width: 900px) {
-        bottom:5px;
+        bottom:35px;
         height: 30vw;
     }
 }
