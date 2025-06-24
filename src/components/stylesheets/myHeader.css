@@ -14,7 +14,8 @@ img{
     bottom:5px;
     position: absolute;
     @media only screen and (max-width: 900px) {
-        bottom:35px;
+        bottom:21px;
+        padding-left:8px;
         height: 30vw;
     }
 }
