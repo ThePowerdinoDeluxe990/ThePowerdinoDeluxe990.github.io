@@ -14,7 +14,7 @@ img{
     bottom:5px;
     position: absolute;
     @media only screen and (max-width: 900px) {
-        bottom:21px;
+        bottom:3px;
         height: 30vw;
     }
 }
