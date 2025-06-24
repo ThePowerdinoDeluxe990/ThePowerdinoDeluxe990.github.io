@@ -11,10 +11,6 @@ img{
 
 .profile_picture{
     height: 8vw;
-    @media only screen and (max-width: 900px) {
-
-        height: 30vw;
-    }
     width: auto;
     left:0px;
     bottom:4px;
@@ -24,4 +20,8 @@ img{
     border-width: 2px;
     border-radius: 3px;
     position: absolute;
+    @media only screen and (max-width: 900px) {
+        bottom:5px;
+        height: 30vw;
+    }
 }
