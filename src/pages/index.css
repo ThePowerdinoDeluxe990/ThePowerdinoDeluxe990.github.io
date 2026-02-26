@@ -3,14 +3,15 @@
     /*
     I love CSS variables
      */
-    --border-color-theme: rgb(255,79,202);
-    --background-black-color: rgb(31,31,31);
-    --title-color-theme: rgb(255,135,215,100);
+    --border-color-theme: rgb(0,239,253);
+    --background-black-color: rgba(31, 31, 31, 0.78);
+    --title-color-theme: rgb(0,239,253,100);
     --secondary-border-or-title: rgb(102,255,186);
     --background-blue-color: #2c186b;
 }
 html {
     background-color:black;
+    scroll-behavior: smooth;
 }
 
 .main_section {
@@ -51,12 +52,12 @@ html {
 }
 
 .secondary_title{
-    font-size: xx-large;
+
+    font-family: "Doto", serif;
     color: var(--title-color-theme);
 }
 
 ._title{
-    font-size: xxx-large;
     color: var(--title-color-theme);
     font-family: "Doto", serif;
 }
@@ -71,11 +72,10 @@ ul{
 }
 
 body{
-    background-color: var(--background-blue-color);
-    background-image: url("../assets/pattern_background.webp") ;
-    background-repeat: repeat;
-    background-position: center center;
-    background-size: cover;
+    background-color: black;
+    background-image: url("../assets/newbackgroundimage.jpg") ;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 @font-face {

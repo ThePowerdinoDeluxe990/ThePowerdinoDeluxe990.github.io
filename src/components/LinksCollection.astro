@@ -2,22 +2,41 @@
 import "./stylesheets/LinksCollection.css"
 import github from "../assets/Buttons/github.gif"
 import Buttons from "./Buttons.astro";
+import MyHeader from "./myHeader.astro";
 ---
 <section class="link_section">
-    <h3>Links:</h3>
-
-    <a href="https://github.com/ThePowerdinoDeluxe990"><img class="my_button" src={github.src} alt="Button"/> </a>
+    <!--
+    <img class="my_button" src={github.src} alt="Button"/>
+    -->
+    <button onclick="location.href='https://github.com/ThePowerdinoDeluxe990'" class="link_button">
+        Github
+    </button>
 </section>
 <style>
 
     .link_section{
+        background-color: rgba(16, 16, 16, 0.7);
+        display:flex;
+        flex-direction: column;
+        gap: 5px;
     }
     img{
         width: 88px;
         height:31px;
         max-width:88px;
         max-height:31px;
+    }
 
-
+    .link_button{
+        width: 100%;
+        font-family: GohuFont, serif;
+        background-color: black;
+        color: white;
+        border-radius: 1px;
+        border: none;
+        padding: 10px;
+        &:hover{
+            background:linear-gradient(#1a1a1a,#000000) ;
+        }
     }
 </style>
