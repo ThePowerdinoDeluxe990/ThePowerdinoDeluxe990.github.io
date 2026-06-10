@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "website_powerdino",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,7 +9,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "7.css": "^0.18.0",
-    "astro": "^5.15.3"
+    "astro": "^6.4.5"
   }
 }
